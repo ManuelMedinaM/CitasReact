@@ -6,7 +6,7 @@ import Cita from './Cita';
 
 const App = () => {
 
-  const citasIniciales = JSON.parse(localStorage.getItem('citas'));
+  let citasIniciales = JSON.parse(localStorage.getItem('citas'));
   if(!citasIniciales){
     citasIniciales=[];
   }
